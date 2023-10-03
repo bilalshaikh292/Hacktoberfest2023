@@ -179,42 +179,51 @@
 
 /* Footer Section */
 
-.footer{
+footer{
     background-color: aliceblue;
     height: 250px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    font-family: 'Gabarito', cursive;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-
+footer p{
+    font-size: 22px ;
+    margin-bottom: 15px;
+    color: #007BFF;
+}
 .first-footer{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+}
+.second-footer a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    margin: 10px 0;
+}
+.second-footer a:hover{
+    text-decoration: underline;
+    color: #007BFF;
 }
 
 #title, #clg{
-    font-family: 'Gabarito', cursive;
+
     font-size: 20px;
 }
 
 #name{
-    font-family: 'Gabarito', cursive;
     font-size: 35px;
 }
 
 .social-media{
     display: flex;
-    margin: 25px 20px;
     justify-content: center;
     align-items: center;
-    font-family: 'Gabarito', cursive;
 }
 
-.media1{
-    margin: 0px 10px;
-}
 /* Efek Hover untuk Tombol Explore */
 .explore-btn {
     background-color: #007BFF; /* Warna latar belakang saat normal */
